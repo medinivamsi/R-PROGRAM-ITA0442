@@ -1,0 +1,14 @@
+1. Write a R program to take input from the user (name and age) and display the values. Also print the version of R installation.  
+
+INPUT :
+
+name = read line(prompt="Input your name: ")
+age  = read line(prompt="Input your age: ")
+print(paste("My name is",name, "and I am",age ,"years old."))
+print(R.version.string)
+
+OUTPUT:
+
+Input your name:ram 
+Input your age: 18
+[1]"My name ram is  and I am 18 years old."
